@@ -1,0 +1,95 @@
+.footer {
+    background: #EAF2FD;
+    font-family: 'Oswald', sans-serif;
+    line-height: 20px;
+}
+
+.enlaces {
+    font-family: 'Oswald', sans-serif;
+    line-height: 30px;
+    color: #464646;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+.enlaces:hover{
+  cursor: pointer;
+}
+
+.formulario {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 40px;
+}
+
+.formulario_nombre {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 40px;
+}
+
+.formulario_mensaje {
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+.boton_formulario {
+    width: 140px;
+    height: 40px;
+    background-color:#2A7AE4;
+    border: solid #2A7AE4;
+    color: white;   
+    margin-bottom: 20px;
+}
+
+.boton_formulario:hover {
+    width: 150px;
+    cursor: pointer;
+}
+
+.formulario_login {
+    background-color: #f8fbfe;
+}
+
+.formulario_login_titulo {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.formulario_login_correo {
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.formulario_login_contraseña {
+    width: 300px;
+    height: 35px;
+}
+
+.formulario_login_boton {
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+    margin-bottom: 20px;
+    background: #2A7AE4;
+    border: solid #2A7AE4;
+    color: white;   
+    width: 310px;
+}
+
+.formulario_login_boton:hover {
+    cursor: pointer;
+}
+
+.rodapie {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    line-height: 25px;
+}
+
+li {
+    list-style: none;
+}

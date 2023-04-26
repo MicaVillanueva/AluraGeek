@@ -1,0 +1,64 @@
+.menu {
+    background-color: white;
+}
+
+.menu_header {
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+
+.menu_title_blue {
+    color:#2A7AE4;
+    margin-left: 5px;
+}
+
+.menu_title_black {
+    color:#464646;
+}
+
+.menu_busqueda {
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.busqueda_title {
+    margin-right: 150px;
+    font-size: 18px;
+    color: #A2A2A2;
+    padding: 8px 16px;
+    border: solid #F5F5F5 1px;
+    background-color:#F5F5F5;
+    border-radius: 20px;
+    background-image: url(/assets/vector-lupa.png);
+    background-repeat: no-repeat;
+    background-position: 350px;
+    width: 350px;
+}
+
+.boton_login {
+    margin-top: 54px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    width: 130px;
+    height: 40px;
+    color: #2A7AE4;
+    background-color: white;
+    border:solid #2A7AE4 1px;
+}
+
+.boton_login:hover {
+    cursor: pointer;
+    width: 140px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

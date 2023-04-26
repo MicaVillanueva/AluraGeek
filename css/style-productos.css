@@ -1,0 +1,74 @@
+main {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.1) 100%);
+
+}
+.productos {
+    margin-top: 40px;
+}
+
+.productos_title_titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-left: 90px;
+    color: #464646;
+}
+
+.productos_boton_boton {
+    margin-left: 960px;
+    color: #2A7AE4;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.productos_boton_boton1 {
+    margin-left: 960px;
+    color: #2A7AE4;
+    border: none;
+    font-size: 15px;
+}
+
+.productos_boton_img {
+    margin-left: 5px;
+}
+
+.productos_boton_boton:hover {
+    color: red;
+}
+
+.productos_boton_boton1:hover {
+    color: red;
+}
+
+.productos_descripcion {
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+.productos_descripcion_descripcion {
+    line-height: 25px;
+}
+
+.productos_descripcion_titulo {
+    font-family: 'Oswald', sans-serif;
+    color: #464646;
+}
+
+.productos_descripcion_precio {
+    font-family: 'Oswald', sans-serif;
+}
+
+.productos_descripcion_enlace {
+    font-family: 'Oswald', sans-serif;
+    color: #2A7AE4;
+}
+
+.productos_descripcion:hover {
+    cursor: context-menu;
+}
+
+.productos_descripcion_enlace:hover {
+    text-decoration:underline;
+    cursor: pointer;
+}

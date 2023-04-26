@@ -1,0 +1,70 @@
+.menu {
+    display: flex;
+}
+
+.menu_header {
+    display: flex;
+    align-items: center;
+}
+
+.menu_busqueda {
+    display: flex;
+}
+
+
+.productos_title {
+    display: flex;
+}
+
+.productos_boton {
+    display: flex;
+    align-items: center;
+}
+
+.productos_descripcion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario_login {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario_login_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

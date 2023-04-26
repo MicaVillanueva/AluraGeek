@@ -1,0 +1,36 @@
+.banner_imagen {
+    width: 100%;
+    height: 300px;
+}
+
+.banner {
+    position: relative;
+    margin-top: 20px;
+}
+
+.banner_texto{
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner_texto_titulo {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.banner_boton {
+    margin-top: 30px;
+    background: #2A7AE4;
+    color: white;
+    padding: 10px;
+    border: solid #2A7AE4;
+}
+
+.banner_boton:hover {
+    padding: 12px;
+    cursor: pointer;
+}
+

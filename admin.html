@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style-admin.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <link rel="stylesheet" href="./css/style-menu.css">
+    <link rel="stylesheet" href="./css/style-footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>ALuraGeek-Admin</title>
+</head>
+<body>
+    <section class="menu">
+        <header class="menu_header">
+            <img src="./assets/vector-logo.png">
+            <h3 class="menu_title_blue">Alura</h3><h3 class="menu_title_black">Geek</h3>
+        </header>
+        <div class="menu_busqueda">
+            <input type="text" class="busqueda_title" placeholder="¿Qué deseas buscar?" src="./assets/vector-lupa.png">
+        </div>
+        <a href="#login"><button class="boton_login">Login</button></a>
+    </section>
+    <main>
+    <section class="agregar_producto">
+        <h1 class="titulo">Agregar nuevo producto</h1>
+        <div class="imagen">
+            <input type="text" class="agregar_imagen" placeholder="Arrastre para agregar una imagen para el producto">
+            <p>O</p>
+            <button type="text" class="agregar_imagen_boton">Busque en su computador</button>
+        </div>
+        <form class="formulario" >
+            <input type="text" class="url" placeholder="URL del producto" data-url>
+            <input type="text" class="nombre" placeholder="Nombre del producto" data-nombre>
+            <input type="text" class="precio" placeholder="Precio del producto" data-precio>
+            <textarea type="text" class="descripcion" placeholder="Descripción del producto"></textarea>
+            <button class="agregar" data-form-btn>Agregar producto</button>
+        </form>
+    </section>
+    <script type="module" src="script.js"></script>
+</main>
+</body>
+
+<section class="footer">
+    <header class="menu_header">
+        <img src="./assets/vector-logo.png">
+        <h3 class="menu_title_blue">Alura</h3><h3 class="menu_title_black">Geek</h3>
+    </header>
+<div class="enlaces">
+    <li>Quienes somos</li>
+    <li>Política de privacidad</li>
+    <li>Programa de fidelidad</li>
+    <li>Nuestras Tiendas</li>
+    <li>Quiero ser franquiciado</li>
+    <li>Anúnciate aquí</li>
+</div>
+<div class="formulario">
+    <h1>Hable con nosotros</h1>
+    <form class="formulario_form">
+        <input class="formulario_nombre" placeholder="Nombre" required>
+        <textarea class="formulario_mensaje" placeholder="Escribe tu mensaje"></textarea>
+        <button class="boton_formulario">Enviar mensaje</button>
+    </form>
+</div>
+</section>
+
+<section class="rodapie">
+    <h1>Desarrollado por Micaela Villanueva</h1>
+    <p>2023</p>
+</section>
+
+
+</html>
